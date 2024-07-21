@@ -27,14 +27,14 @@ Took me 2 days to code (on and off) for a total of maybe 3 hours. Had to figure 
 ```python
 import rsa_i_guess
 
-message = "Hello World"
+message = "github.com/SilentHealer584/RSA-i-guess"
 complexity = 1024
 
 public, private = rsa_i_guess.key_gen(complexity)
-print(public, '\n\n', private)
+print(f'Public Key: {public}\n\nPrivate Key: {private}\n')
 
 encrypted = rsa_i_guess.encrypt(message, public)
-print(encrypted)
+print(f'Encrypted Message: {encrypted}\n')
 
 decrypted = rsa_i_guess.decrypt(encrypted, private)
-print(decrypted)
+print(f'Decrypted Message: {decrypted}')

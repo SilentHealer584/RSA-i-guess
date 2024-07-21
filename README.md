@@ -22,7 +22,7 @@ Took me 2 days to code (on and off) for a total of maybe 3 hours. Had to figure 
 
 > Functions include: `key_gen(complexity)`, `encrypt(message, public_key)` and `decrypt(message, private_key)`
 
-## Example use
+## Example use (Module)
 
 ```python
 import rsa_i_guess
